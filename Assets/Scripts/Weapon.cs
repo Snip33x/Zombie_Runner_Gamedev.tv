@@ -34,7 +34,8 @@ public class Weapon : MonoBehaviour
     private void ProcessRaycast()
     {
         RaycastHit hit;
-        if (Physics.Raycast(FPCamera.transform.position, FPCamera.transform.forward, out hit, range)) //out is stroing information about our raycasthit
+        //out is stroing information about our raycasthit
+        if (Physics.Raycast(FPCamera.transform.position, FPCamera.transform.forward, out hit, range)) 
         {
 
             Debug.Log(hit.collider);
