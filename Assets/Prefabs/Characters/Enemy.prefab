@@ -662,7 +662,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 0}
-  chaseRange: 20
+  chaseRange: 17
   turnSpeed: 5
 --- !u!114 &3709878485454463328
 MonoBehaviour:
