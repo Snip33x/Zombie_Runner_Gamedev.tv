@@ -10,7 +10,9 @@ public class EnemyHealth : MonoBehaviour
 
     public void TakeDamage(int damage)
     {
-        BroadcastMessage("OnDamageTaken"); // BroadcastMessage calls this method - this method can be used in many scripts , and when called here it will work in different scripts - ex. in Enemy Attack create method with this name, and let enemy also know that it was hit
+    // BroadcastMessage calls this method - this method can be used in many scripts , and when called here it will work in different scripts 
+    //- ex. in Enemy Attack create method with this name, and let enemy also know that it was hit
+        BroadcastMessage("OnDamageTaken"); 
         hitPoints -= damage;
         Debug.Log("Enemy have now " + hitPoints + " health");
         if (hitPoints <= 0)
