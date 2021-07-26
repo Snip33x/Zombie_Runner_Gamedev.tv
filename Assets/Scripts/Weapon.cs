@@ -10,20 +10,24 @@ public class Weapon : MonoBehaviour
     [SerializeField] int damage = 25;
     [SerializeField] ParticleSystem muzzleFlash;
     [SerializeField] GameObject hitEffect; //gameobject because we want to destroy it later on
+    [SerializeField] Ammo ammoSlot;
 
     void Update()
     {
         if (Input.GetButtonDown("Fire1"))
         {
-            Shoot();
+                Shoot();  
         }
     }
 
     private void Shoot()
     {
-        PlayMuzzleFlash();
-        ProcessRaycast();
-
+        if (ammoSlot.GetCurrentAmmo() > 0)
+        {
+            PlayMuzzleFlash();
+            ProcessRaycast();
+            ammoSlot.ReduceAmmo();
+        }
     }
 
     private void PlayMuzzleFlash()
