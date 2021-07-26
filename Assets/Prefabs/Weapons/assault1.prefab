@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 8991707464690721907}
   - component: {fileID: 6569627079142183097}
   - component: {fileID: 5543250150916821234}
+  - component: {fileID: 6795258648316054807}
   m_Layer: 0
   m_Name: assault1
   m_TagString: Untagged
@@ -97,10 +98,29 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   FPCamera: {fileID: 0}
   range: 100
-  damage: 25
+  damage: 30
   muzzleFlash: {fileID: 5440889229500267632}
   hitEffect: {fileID: 4669767199169720856, guid: 0926eecbb027bd54da31e2c1bcbf0933, type: 3}
   ammoSlot: {fileID: 0}
+  timeBetweenShoots: 0.5
+--- !u!114 &6795258648316054807
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4624349597725176172}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 737251b334e14384db738784d4cf5c4a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fpsCamera: {fileID: 0}
+  fpsController: {fileID: 0}
+  zoomedOutFOV: 60
+  zoomedInFOV: 20
+  mouseSpeedOutFOV: 2
+  mouseSpeedInFOV: 1
 --- !u!1001 &8766695745347693868
 PrefabInstance:
   m_ObjectHideFlags: 0
