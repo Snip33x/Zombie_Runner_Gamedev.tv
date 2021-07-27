@@ -70,3 +70,69 @@ crashlytics-build.properties
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
 Assets/TextMesh Pro/
+Assets/ReTime.meta
+Assets/ReTime/Core Scripts.meta
+Assets/ReTime/Demos.meta
+Assets/ReTime/Editor.meta
+Assets/ReTime/Pathiral - ReTime Guide.pdf
+Assets/ReTime/Pathiral - ReTime Guide.pdf.meta
+Assets/ReTime/Core Scripts/PointInTime.cs
+Assets/ReTime/Core Scripts/PointInTime.cs.meta
+Assets/ReTime/Core Scripts/ReTime.cs
+Assets/ReTime/Core Scripts/ReTime.cs.meta
+Assets/ReTime/Core Scripts/ReTimeParticles.cs
+Assets/ReTime/Core Scripts/ReTimeParticles.cs.meta
+Assets/ReTime/Demos/Character Demo.meta
+Assets/ReTime/Demos/Checkpoint Parent.meta
+Assets/ReTime/Demos/Checkpoint.meta
+Assets/ReTime/Demos/Hold Key.meta
+Assets/ReTime/Demos/Individual Objects.meta
+Assets/ReTime/Demos/Method Run.meta
+Assets/ReTime/Demos/Particles.meta
+Assets/ReTime/Demos/Red Cube.mat
+Assets/ReTime/Demos/Red Cube.mat.meta
+Assets/ReTime/Demos/Character Demo/Character Demo.unity
+Assets/ReTime/Demos/Character Demo/Character Demo.unity.meta
+Assets/ReTime/Demos/Character Demo/Parsite Zombie.meta
+Assets/ReTime/Demos/Character Demo/textures.meta
+Assets/ReTime/Demos/Character Demo/Parsite Zombie/New Animator Controller.controller
+Assets/ReTime/Demos/Character Demo/Parsite Zombie/New Animator Controller.controller.meta
+Assets/ReTime/Demos/Character Demo/Parsite Zombie/parasite_l_starkie@Zombie Running.fbx
+Assets/ReTime/Demos/Character Demo/Parsite Zombie/parasite_l_starkie@Zombie Running.fbx.meta
+Assets/ReTime/Demos/Character Demo/Parsite Zombie/parasite_l_starkie_Reduced.fbx
+Assets/ReTime/Demos/Character Demo/Parsite Zombie/parasite_l_starkie_Reduced.fbx.meta
+Assets/ReTime/Demos/Character Demo/textures/parasiteZombie_diffuse.png
+Assets/ReTime/Demos/Character Demo/textures/parasiteZombie_diffuse.png.meta
+Assets/ReTime/Demos/Character Demo/textures/parasiteZombie_normal.png
+Assets/ReTime/Demos/Character Demo/textures/parasiteZombie_normal.png.meta
+Assets/ReTime/Demos/Character Demo/textures/parasiteZombie_specular.png
+Assets/ReTime/Demos/Character Demo/textures/parasiteZombie_specular.png.meta
+Assets/ReTime/Demos/Character Demo/textures/zombie.mat
+Assets/ReTime/Demos/Character Demo/textures/zombie.mat.meta
+Assets/ReTime/Demos/Checkpoint/Checkpoint.unity
+Assets/ReTime/Demos/Checkpoint/Checkpoint.unity.meta
+Assets/ReTime/Demos/Checkpoint/GroundHit.cs
+Assets/ReTime/Demos/Checkpoint/GroundHit.cs.meta
+Assets/ReTime/Demos/Checkpoint Parent/Checkpoint parent.unity
+Assets/ReTime/Demos/Checkpoint Parent/Checkpoint parent.unity.meta
+Assets/ReTime/Demos/Hold Key/Hold Key.unity
+Assets/ReTime/Demos/Hold Key/Hold Key.unity.meta
+Assets/ReTime/Demos/Individual Objects/Individual Objects.unity
+Assets/ReTime/Demos/Individual Objects/Individual Objects.unity.meta
+Assets/ReTime/Demos/Method Run/Method Run.unity
+Assets/ReTime/Demos/Method Run/Method Run.unity.meta
+Assets/ReTime/Demos/Method Run/MethodRun.cs
+Assets/ReTime/Demos/Method Run/MethodRun.cs.meta
+Assets/ReTime/Demos/Particles/Looping.meta
+Assets/ReTime/Demos/Particles/MUST READ.txt
+Assets/ReTime/Demos/Particles/MUST READ.txt.meta
+Assets/ReTime/Demos/Particles/Non Looping.meta
+Assets/ReTime/Demos/Particles/Looping/Looping Particles.unity
+Assets/ReTime/Demos/Particles/Looping/Looping Particles.unity.meta
+Assets/ReTime/Demos/Particles/Non Looping/Non-Looping Particles.unity
+Assets/ReTime/Demos/Particles/Non Looping/Non-Looping Particles.unity.meta
+Assets/ReTime/Editor/Resources.meta
+Assets/ReTime/Editor/TimeRewindCustomGUI.cs
+Assets/ReTime/Editor/TimeRewindCustomGUI.cs.meta
+Assets/ReTime/Editor/Resources/ReTime Cover.png
+Assets/ReTime/Editor/Resources/ReTime Cover.png.meta
