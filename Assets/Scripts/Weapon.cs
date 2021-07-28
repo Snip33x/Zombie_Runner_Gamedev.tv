@@ -11,43 +11,36 @@ public class Weapon : MonoBehaviour
     [SerializeField] ParticleSystem muzzleFlash;
     [SerializeField] GameObject hitEffect; //gameobject because we want to destroy it later on
     [SerializeField] Ammo ammoSlot;
+    [SerializeField] AmmoType ammoType;
     [SerializeField] float timeBetweenShoots = 0.5f;
+
     bool canShoot = true;
-    WeaponSwitcher weaponSwitcher;
 
     private void OnEnable()
     {
-
         canShoot = true;
     }
 
-
-
-    private void Start()
+    void Update()
     {
-        weaponSwitcher = FindObjectOfType<WeaponSwitcher>();
+        if (Input.GetMouseButtonDown(0) && canShoot == true)
+        {
+            StartCoroutine(Shoot());
+        }
     }
 
-    //void Update()
-    //{
-    //    if (Input.GetMouseButtonDown(0) && canShoot == true)
-    //    {
-    //        StartCoroutine(Shoot());  
-    //    }
-    //}
-
-    //IEnumerator Shoot()
-    //{
-    //    canShoot = false;
-    //    if (ammoSlot.GetCurrentAmmo() > 0)
-    //    {
-    //        PlayMuzzleFlash();
-    //        ProcessRaycast();
-    //        ammoSlot.ReduceAmmo();
-    //    }
-    //    yield return new WaitForSeconds(timeBetweenShoots);
-    //    canShoot = true;
-    //}
+    IEnumerator Shoot()
+    {
+        canShoot = false;
+        if (ammoSlot.GetCurrentAmmo(ammoType) > 0)
+        {
+            PlayMuzzleFlash();
+            ProcessRaycast();
+            ammoSlot.ReduceAmmo(ammoType);
+        }
+        yield return new WaitForSeconds(timeBetweenShoots);
+        canShoot = true;
+    }
 
     private void PlayMuzzleFlash()
     {
