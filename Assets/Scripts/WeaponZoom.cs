@@ -15,6 +15,10 @@ public class WeaponZoom : MonoBehaviour
     [SerializeField] float mouseSpeedInFOV = 0.5f;
 
 
+    private void OnDisable()
+    {
+        ZoomOut();
+    }
 
 
     private void Update()
@@ -23,20 +27,30 @@ public class WeaponZoom : MonoBehaviour
         {
             if(zoomedInToggle == false)
             {
-                zoomedInToggle = true;
-                fpsCamera.fieldOfView = zoomedInFOV;
-                fpsController.mouseLook.XSensitivity = mouseSpeedInFOV;
-                fpsController.mouseLook.YSensitivity = mouseSpeedInFOV;
+                ZoomIn();
             }
             else
             {
-                zoomedInToggle = false;
-                fpsCamera.fieldOfView = zoomedOutFOV;
-                fpsController.mouseLook.XSensitivity = mouseSpeedOutFOV;
-                fpsController.mouseLook.YSensitivity = mouseSpeedOutFOV;
+                ZoomOut();
             }
         }
     }
+
+    private void ZoomIn()
+    {
+        zoomedInToggle = true;
+        fpsCamera.fieldOfView = zoomedInFOV;
+        fpsController.mouseLook.XSensitivity = mouseSpeedInFOV;
+        fpsController.mouseLook.YSensitivity = mouseSpeedInFOV;
+    }
+    private void ZoomOut()
+    {
+        zoomedInToggle = false;
+        fpsCamera.fieldOfView = zoomedOutFOV;
+        fpsController.mouseLook.XSensitivity = mouseSpeedOutFOV;
+        fpsController.mouseLook.YSensitivity = mouseSpeedOutFOV;
+    }
+
 
 
     //My zooming code, working as expcted, but Rick's is simpler
