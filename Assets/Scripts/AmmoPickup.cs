@@ -14,7 +14,7 @@ public class AmmoPickup : MonoBehaviour
         }
     }
 
-    //private void OnCollisionEnter(Collision collision)
+    //private void OnCollisionEnter(Collision collision) //test
     //{
     //    if (collision.gameObject.tag == "Player")
     //    {
