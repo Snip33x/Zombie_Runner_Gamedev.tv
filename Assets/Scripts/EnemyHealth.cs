@@ -1,10 +1,19 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.AI;
 
 public class EnemyHealth : MonoBehaviour
 {
     [SerializeField] float hitPoints = 100f;
+
+    bool isDead = false;
+
+    public bool IsDead()
+    {
+        return isDead;
+    }    
 
     // create a public method which reduces hitpoints by the amount of damage
 
@@ -17,7 +26,16 @@ public class EnemyHealth : MonoBehaviour
         Debug.Log("Enemy have now " + hitPoints + " health");
         if (hitPoints <= 0)
         {
-            Destroy(gameObject);
+            Die();
         }
+    }
+
+    private void Die()
+    {
+        if (isDead) return;
+        isDead = true;
+        GetComponent<Animator>().SetTrigger("die");
+        //GetComponent<NavMeshAgent>().enabled = false;
+        //GetComponent<EnemyAI>().enabled = false;
     }
 }
