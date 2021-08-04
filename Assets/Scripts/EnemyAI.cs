@@ -85,7 +85,7 @@ public class EnemyAI : MonoBehaviour
 
     void OnDrawGizmosSelected()
     {
-        // Draw a yellow cube at the transform position
+        // Draw a yellow cube at the transform positionn
         Gizmos.color = Color.yellow;
         Gizmos.DrawWireSphere(transform.position, chaseRange);
     }
