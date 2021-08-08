@@ -65,7 +65,7 @@ public class EnemyAI : MonoBehaviour
     private void ChaseTarget()
     {
         GetComponent<Animator>().SetBool("attack", false);
-        //String reference to Enemy object - animator -parameters-move(created and named by me)
+        //String reference to Enemy object - animator -parameters-move(created and named by me)d
         GetComponent<Animator>().SetTrigger("move");
         navMeshAgent.SetDestination(target.position);
     }
