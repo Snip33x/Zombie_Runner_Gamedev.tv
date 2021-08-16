@@ -146,3 +146,20 @@ Assets/ProBuilder Data/Default Color Palette.asset.meta
 ProjectSettings/Packages/com.unity.probuilder/Settings.json
 Assets/ProBuilder Data/Default Material Palette.asset
 Assets/ProBuilder Data/Default Material Palette.asset.meta
+Assets/TileableBricksWall.meta
+Assets/TileableBricksWall/Materials.meta
+Assets/TileableBricksWall/Textures.meta
+Assets/TileableBricksWall/Materials/Bricks_01_mat.mat
+Assets/TileableBricksWall/Materials/Bricks_01_mat.mat.meta
+Assets/TileableBricksWall/Materials/Bricks_01_mat2.mat
+Assets/TileableBricksWall/Materials/Bricks_01_mat2.mat.meta
+Assets/TileableBricksWall/Textures/Bricks_diffuse.TGA
+Assets/TileableBricksWall/Textures/Bricks_diffuse.TGA.meta
+Assets/TileableBricksWall/Textures/Bricks_gloss.TGA
+Assets/TileableBricksWall/Textures/Bricks_gloss.TGA.meta
+Assets/TileableBricksWall/Textures/Bricks_normal.TGA
+Assets/TileableBricksWall/Textures/Bricks_normal.TGA.meta
+Assets/TileableBricksWall/Textures/Bricks_specular.TGA
+Assets/TileableBricksWall/Textures/Bricks_specular.TGA.meta
+Assets/TileableBricksWall/Textures/Height_map.TGA
+Assets/TileableBricksWall/Textures/Height_map.TGA.meta
